@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="px-2 mt-2 py-2">
             <hr className="text-gray-border mx-6  " />
 
-            <footer className="text-gray text-sm flex px-6 mt-6 justify-between">
+            <div className="text-gray text-sm flex px-6 mt-6 justify-between">
                 {/* privacy policy navigation */}
                 <div className="content flex gap-2">
                     <p>© 2023 Airbnb, Inc.</p>
@@ -56,7 +56,7 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
-            </footer>
+            </div>
         </div>
     );
 };
